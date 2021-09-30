@@ -1,0 +1,30 @@
+{
+  "name": "lucas-nogueira-ramos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lucas Nogueira Ramos",
+  "author": "Lucas Ramos",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.13.2",
+    "dotenv": "^10.0.0",
+    "gatsby": "^3.13.1",
+    "gatsby-plugin-image": "^1.14.0",
+    "gatsby-plugin-sharp": "^3.14.0",
+    "gatsby-plugin-styled-components": "^4.14.0",
+    "gatsby-source-contentful": "^5.14.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.3.1"
+  }
+}
