@@ -8,9 +8,9 @@ export default function IndexPage({ data }) {
   return (
     <main>
       <Link to={`/${langs.ENGLISH}`}>{langs.ENGLISH}</Link>
-      <Header data={data.allContentfulSocial} />
+      <Header data={data.allContentfulSocial} locale="pt-BR" />
       <h2>Experiência Profissional</h2>
-      <WorkExperience data={data.allContentfulWorkExperience} />
+      <WorkExperience data={data.allContentfulWorkExperience} locale="pt-BR" />
 
       <h2>Formação</h2>
       <h3>
@@ -32,8 +32,8 @@ export const query = graphql`
         node {
           id
           company
-          startDate
-          endDate
+          startDate(formatString: "MM/YYYY")
+          endDate(formatString: "MM/YYYY")
           jobDescription {
             raw
           }
