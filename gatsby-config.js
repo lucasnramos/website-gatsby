@@ -1,9 +1,11 @@
 require("dotenv").config();
+const languages = require("./src/data/languages");
 
 module.exports = {
   siteMetadata: {
     siteUrl: "https://lucasnramos.com",
     title: "Lucas Nogueira Ramos",
+    languages
   },
   plugins: [
     {
@@ -16,6 +18,13 @@ module.exports = {
     },
     "gatsby-plugin-styled-components",
     "gatsby-plugin-image",
-    "gatsby-plugin-sharp"
+    "gatsby-plugin-sharp",
+    {
+      resolve: "gatsby-plugin-i18n",
+      options: {
+        langKeyDefault: languages.defaultLangKey,
+        useLangKeyLayout: false,
+      },
+    },
   ],
 };
