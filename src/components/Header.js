@@ -1,6 +1,6 @@
 import * as React from "react";
 
-export default function Header({ data }) {
+export default function Header({ data, locale }) {
   return (
     <>
       <h1>Lucas Nogueira Ramos</h1>
