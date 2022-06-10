@@ -1,27 +1,9 @@
-import * as React from "react";
+import React from "react";
+
 
 export default function IndexPage() {
   return (
-    <main>
-      <h1>Lucas Nogueira Ramos</h1>
-      <p>
-        <a href="mailto:contact@lucasnramos.com">contact@lucasnramos.com</a> |{" "}
-        <a
-          href="https://www.linkedin.com/in/lucas-nogueira-ramos/?locale=en_US"
-          target="_blank"
-          rel="noreferrer"
-        >
-          LinkedIn
-        </a>{" "}
-        |{" "}
-        <a
-          href="https://github.com/lucasnramos"
-          rel="noreferrer"
-          target="_blank"
-        >
-          GitHub
-        </a>
-      </p>
+    <>
       <h2>Work Experience</h2>
       <h3>Systems Analyst - GFT Technologies</h3>
       <p>November 2019 - Present</p>
@@ -93,6 +75,6 @@ export default function IndexPage() {
       <h2>Education</h2>
       <h3>Degree: System Analysis and Development</h3>
       <h4>Institution: Faculdade de Tecnologia de Sorocaba</h4>
-    </main>
+    </> 
   );
 }
