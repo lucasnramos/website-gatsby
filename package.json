@@ -1,11 +1,13 @@
 {
-  "name": "lucas-nogueira-ramos",
+  "name": "lnr-website",
   "version": "1.0.0",
   "private": true,
-  "description": "Lucas Nogueira Ramos",
+  "description": "My Personal Website",
   "author": "Lucas Ramos",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "personal site",
+    "Web developer"
   ],
   "scripts": {
     "develop": "gatsby develop",
@@ -27,5 +29,9 @@
     "react-dom": "^17.0.1",
     "styled-components": "^5.3.5",
     "styled-normalize": "^8.0.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.30.0"
   }
 }
