@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
 
+// Footer to the bottom of the screen
 const StyledLayout = styled.div`
 min-height: 100vh;
 display: grid;
@@ -9,10 +10,10 @@ grid-template-rows: auto 1fr auto;
 `
 
 const StyledFooter = styled.footer`
-padding: 0.5rem 0;
+padding: 1rem 0;
 text-align: center;
-background-color: black
-color: white;
+color: ${ ({theme}) => theme.colors.footerText };
+background-color: ${ ({theme}) => theme.colors.footerBackground };
 `
 
 export default function Layout({ children }) {
