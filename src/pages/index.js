@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 export default function IndexPage() {
   return (
@@ -74,6 +74,6 @@ export default function IndexPage() {
       <h2>Education</h2>
       <h3>Degree: System Analysis and Development</h3>
       <h4>Institution: Faculdade de Tecnologia de Sorocaba</h4>
-    </> 
-  );
+    </>
+  )
 }
