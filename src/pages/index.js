@@ -4,9 +4,18 @@ export default function IndexPage() {
   return (
     <>
       <h2>Work Experience</h2>
-      <h3>Systems Analyst - GFT Technologies</h3>
+      <h3>Frontend Engineer - GFT Technologies</h3>
       <p>November 2019 - Present</p>
-      <h4>Project: Spotify for Brands - SEA</h4>
+
+      <h4>Project: Phoenix - BNY Mellon Brasil</h4>
+      <p> Created online solution for Pricing and Liquidity processes for
+        assets and investment funds managed by the clien. My role as a frontend
+        software developer, I was responsible for prototyping with the client,
+        creating new functionalities, code maintenance, code review and code
+        approval. <b>Environment:</b> Angular v9, .NET Core, Oracle DB, Gitlab CI/CD,
+      </p>
+
+      <h4>Project: Spotify for Brands - South East Asia & Russia</h4>
       <p>
         Redesigned the Spotify For Brands portal for the South East Asia market,
         integrated with Contentful for multi-lingual content management.
@@ -16,8 +25,10 @@ export default function IndexPage() {
         SASS, Styled Components, SEO, Google Cloud Platform, Contentful, Pardot,
         Responsive design
       </p>
+
+      <h4>Project: Process Twins - Google</h4>
       <p>
-        Project: Process Twins - Google An online Digital Twin application with
+        An online Digital Twin application with
         Drag and Drop capabilities and a 3D canvas to design the processes. The
         user can setup parameters, alerts and outputs and simulate a
         manufacturing run. The application also provides reporting and
